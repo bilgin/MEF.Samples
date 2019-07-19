@@ -1,0 +1,221 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\berkay.bilgin\\projects\\dotnet-core\\MEF.Samples\\MEF.Web\\MEF.Web.csproj": {}
+  },
+  "projects": {
+    "D:\\berkay.bilgin\\projects\\dotnet-core\\MEF.Samples\\MEF.Contracts\\MEF.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\berkay.bilgin\\projects\\dotnet-core\\MEF.Samples\\MEF.Contracts\\MEF.Contracts.csproj",
+        "projectName": "MEF.Contracts",
+        "projectPath": "D:\\berkay.bilgin\\projects\\dotnet-core\\MEF.Samples\\MEF.Contracts\\MEF.Contracts.csproj",
+        "packagesPath": "C:\\Users\\berkay.bilgin\\.nuget\\packages\\",
+        "outputPath": "D:\\berkay.bilgin\\projects\\dotnet-core\\MEF.Samples\\MEF.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\berkay.bilgin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\berkay.bilgin\\projects\\dotnet-core\\MEF.Samples\\MEF.Providers\\MEF.Providers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\berkay.bilgin\\projects\\dotnet-core\\MEF.Samples\\MEF.Providers\\MEF.Providers.csproj",
+        "projectName": "MEF.Providers",
+        "projectPath": "D:\\berkay.bilgin\\projects\\dotnet-core\\MEF.Samples\\MEF.Providers\\MEF.Providers.csproj",
+        "packagesPath": "C:\\Users\\berkay.bilgin\\.nuget\\packages\\",
+        "outputPath": "D:\\berkay.bilgin\\projects\\dotnet-core\\MEF.Samples\\MEF.Providers\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\berkay.bilgin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "D:\\berkay.bilgin\\projects\\dotnet-core\\MEF.Samples\\MEF.Contracts\\MEF.Contracts.csproj": {
+                "projectPath": "D:\\berkay.bilgin\\projects\\dotnet-core\\MEF.Samples\\MEF.Contracts\\MEF.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "System.Composition": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\berkay.bilgin\\projects\\dotnet-core\\MEF.Samples\\MEF.Web\\MEF.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\berkay.bilgin\\projects\\dotnet-core\\MEF.Samples\\MEF.Web\\MEF.Web.csproj",
+        "projectName": "MEF.Web",
+        "projectPath": "D:\\berkay.bilgin\\projects\\dotnet-core\\MEF.Samples\\MEF.Web\\MEF.Web.csproj",
+        "packagesPath": "C:\\Users\\berkay.bilgin\\.nuget\\packages\\",
+        "outputPath": "D:\\berkay.bilgin\\projects\\dotnet-core\\MEF.Samples\\MEF.Web\\obj\\publish\\win-x86\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\berkay.bilgin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "D:\\berkay.bilgin\\projects\\dotnet-core\\MEF.Samples\\MEF.Providers\\MEF.Providers.csproj": {
+                "projectPath": "D:\\berkay.bilgin\\projects\\dotnet-core\\MEF.Samples\\MEF.Providers\\MEF.Providers.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

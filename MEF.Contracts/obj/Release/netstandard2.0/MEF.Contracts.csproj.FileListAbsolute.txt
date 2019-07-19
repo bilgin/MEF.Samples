@@ -1,0 +1,9 @@
+D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.Contracts\bin\Release\netstandard2.0\MEF.Contracts.deps.json
+D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.Contracts\bin\Release\netstandard2.0\MEF.Contracts.dll
+D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.Contracts\bin\Release\netstandard2.0\MEF.Contracts.pdb
+D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.Contracts\obj\Release\netstandard2.0\MEF.Contracts.csprojAssemblyReference.cache
+D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.Contracts\obj\Release\netstandard2.0\MEF.Contracts.csproj.CoreCompileInputs.cache
+D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.Contracts\obj\Release\netstandard2.0\MEF.Contracts.AssemblyInfoInputs.cache
+D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.Contracts\obj\Release\netstandard2.0\MEF.Contracts.AssemblyInfo.cs
+D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.Contracts\obj\Release\netstandard2.0\MEF.Contracts.dll
+D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.Contracts\obj\Release\netstandard2.0\MEF.Contracts.pdb

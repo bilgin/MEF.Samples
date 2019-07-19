@@ -1,0 +1,15 @@
+﻿@model IEnumerable<(string Id, string Value)>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+test
+@foreach (var item in Model)
+{
+    <div>
+        <b>Dll : </b> @item.Id <br />
+
+        <b> Text : </b> @item.Value <br />
+    </div>
+}

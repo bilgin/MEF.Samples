@@ -1,0 +1,161 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "MEF.DbLogger/1.0.0": {
+        "dependencies": {
+          "MEF.Contracts": "1.0.0",
+          "NETStandard.Library": "2.0.3",
+          "System.Composition": "1.2.0"
+        },
+        "runtime": {
+          "MEF.DbLogger.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "System.Composition/1.2.0": {
+        "dependencies": {
+          "System.Composition.AttributedModel": "1.2.0",
+          "System.Composition.Convention": "1.2.0",
+          "System.Composition.Hosting": "1.2.0",
+          "System.Composition.Runtime": "1.2.0",
+          "System.Composition.TypedParts": "1.2.0"
+        }
+      },
+      "System.Composition.AttributedModel/1.2.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Composition.AttributedModel.dll": {
+            "assemblyVersion": "1.0.33.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "System.Composition.Convention/1.2.0": {
+        "dependencies": {
+          "System.Composition.AttributedModel": "1.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Composition.Convention.dll": {
+            "assemblyVersion": "1.0.33.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "System.Composition.Hosting/1.2.0": {
+        "dependencies": {
+          "System.Composition.Runtime": "1.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Composition.Hosting.dll": {
+            "assemblyVersion": "1.0.33.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "System.Composition.Runtime/1.2.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Composition.Runtime.dll": {
+            "assemblyVersion": "1.0.33.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "System.Composition.TypedParts/1.2.0": {
+        "dependencies": {
+          "System.Composition.AttributedModel": "1.2.0",
+          "System.Composition.Hosting": "1.2.0",
+          "System.Composition.Runtime": "1.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Composition.TypedParts.dll": {
+            "assemblyVersion": "1.0.33.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "MEF.Contracts/1.0.0": {
+        "runtime": {
+          "MEF.Contracts.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MEF.DbLogger/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "System.Composition/1.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nTgIj77StlLM7CW3uFM3B/0Yen5udzaeSQcdSCVV3wIlRGYsXYLjZWTYa9m8IBjQiyZKsukKYaogqhOa6QUlDA==",
+      "path": "system.composition/1.2.0",
+      "hashPath": "system.composition.1.2.0.nupkg.sha512"
+    },
+    "System.Composition.AttributedModel/1.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IQ2bn1BR/Q7gapjnXR/HGh0BMtjYVU0t0uPZ3LXE4yfwjM7x/HcImJxwwhUtnL+YWU5/pTOhzZnqsjwKJpWaug==",
+      "path": "system.composition.attributedmodel/1.2.0",
+      "hashPath": "system.composition.attributedmodel.1.2.0.nupkg.sha512"
+    },
+    "System.Composition.Convention/1.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-g9PSAdL/0dT3GZbdwt5r238RLHfnn+ujRVhoOGvVNjbbhlgZeKcDA+zsje4Y81csMywAPsDXkeXrBigtjINurg==",
+      "path": "system.composition.convention/1.2.0",
+      "hashPath": "system.composition.convention.1.2.0.nupkg.sha512"
+    },
+    "System.Composition.Hosting/1.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NQa4OanHFuWVpMuj3+0RnoAq2v+5KQNA3+EYuhmuDbOfR06o7rYjzs9FHP0XWJWN85vqnM76dgAgj46OYsDV8A==",
+      "path": "system.composition.hosting/1.2.0",
+      "hashPath": "system.composition.hosting.1.2.0.nupkg.sha512"
+    },
+    "System.Composition.Runtime/1.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-F8Ef3y9/JKbK4lEqJScFnfhT8/CwboGS890a/Js9E11wb1N6rl63pU8wxRPmy2MUUUHSafxrF3ooIh94pNEF0g==",
+      "path": "system.composition.runtime/1.2.0",
+      "hashPath": "system.composition.runtime.1.2.0.nupkg.sha512"
+    },
+    "System.Composition.TypedParts/1.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cLjoUGnaLRkJSwL6FLEx3aJanDgwEtyoEqf9cE6Z5ipbjNXAlk7W11uwNfHaECxdPa/QfGbvaRd4i24gxc5ygg==",
+      "path": "system.composition.typedparts/1.2.0",
+      "hashPath": "system.composition.typedparts.1.2.0.nupkg.sha512"
+    },
+    "MEF.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

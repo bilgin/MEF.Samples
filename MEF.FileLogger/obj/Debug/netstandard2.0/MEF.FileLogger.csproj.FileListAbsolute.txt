@@ -1,0 +1,11 @@
+D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.FileLogger\bin\Debug\netstandard2.0\MEF.Contracts.dll
+D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.Web\Extensions\netstandard2.0\MEF.FileLogger.deps.json
+D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.Web\Extensions\netstandard2.0\MEF.FileLogger.dll
+D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.Web\Extensions\netstandard2.0\MEF.FileLogger.pdb
+D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.FileLogger\obj\Debug\netstandard2.0\MEF.FileLogger.csprojAssemblyReference.cache
+D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.FileLogger\obj\Debug\netstandard2.0\MEF.FileLogger.csproj.CoreCompileInputs.cache
+D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.FileLogger\obj\Debug\netstandard2.0\MEF.FileLogger.AssemblyInfoInputs.cache
+D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.FileLogger\obj\Debug\netstandard2.0\MEF.FileLogger.AssemblyInfo.cs
+D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.FileLogger\obj\Debug\netstandard2.0\MEF.FileLogger.csproj.CopyComplete
+D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.FileLogger\obj\Debug\netstandard2.0\MEF.FileLogger.dll
+D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.FileLogger\obj\Debug\netstandard2.0\MEF.FileLogger.pdb

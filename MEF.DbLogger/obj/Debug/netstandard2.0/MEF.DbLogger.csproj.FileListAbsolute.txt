@@ -1,0 +1,11 @@
+D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.DbLogger\bin\Debug\netstandard2.0\MEF.Contracts.dll
+D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.Web\Extensions\netstandard2.0\MEF.DbLogger.deps.json
+D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.Web\Extensions\netstandard2.0\MEF.DbLogger.dll
+D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.Web\Extensions\netstandard2.0\MEF.DbLogger.pdb
+D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.DbLogger\obj\Debug\netstandard2.0\MEF.DbLogger.csprojAssemblyReference.cache
+D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.DbLogger\obj\Debug\netstandard2.0\MEF.DbLogger.csproj.CoreCompileInputs.cache
+D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.DbLogger\obj\Debug\netstandard2.0\MEF.DbLogger.AssemblyInfoInputs.cache
+D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.DbLogger\obj\Debug\netstandard2.0\MEF.DbLogger.AssemblyInfo.cs
+D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.DbLogger\obj\Debug\netstandard2.0\MEF.DbLogger.csproj.CopyComplete
+D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.DbLogger\obj\Debug\netstandard2.0\MEF.DbLogger.dll
+D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.DbLogger\obj\Debug\netstandard2.0\MEF.DbLogger.pdb
