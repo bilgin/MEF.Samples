@@ -22,11 +22,9 @@ namespace MEF.Web
 
         private void ComposeLoggers()
         {
-            // Catalogs does not exists in Dotnet Core, so you need to manage your own.
             var assemblies = new List<Assembly>() { typeof(Program).GetTypeInfo().Assembly };
-            var pluginAssemblies = Directory.GetFiles(@"D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.Web\Extensions\netstandard2.0", "*.dll", SearchOption.TopDirectoryOnly)
+            var pluginAssemblies = Directory.GetFiles(@"..\Extensions\netstandard2.0", "*.dll", SearchOption.TopDirectoryOnly)
                 .Select(AssemblyLoadContext.Default.LoadFromAssemblyPath)
-                // Ensure that the assembly contains an implementation for the given type.
                 .Where(s => s.GetTypes().Where(p => typeof(ILogger).IsAssignableFrom(p)).Any());
 
             assemblies.AddRange(pluginAssemblies);
@@ -40,9 +38,11 @@ namespace MEF.Web
             }
         }
 
-        public IEnumerable<(string Id, string Value)> GetAllLoggers()
+        public IEnumerable<(string Id, string Value)> Log(string message)
         {
-            return Services.Select(f => new { Id = f.GetType().ToString(), Value = f.Log() })
+            return Services.Select(f => 
+            new { Id = f.GetType().ToString(), Value = f.Log(message) }
+            )
              .AsEnumerable()
              .Select(c => (c.Id, c.Value))
              .ToList();

@@ -17,7 +17,7 @@ namespace MEF.Web.Controllers
 
         public IActionResult Index()
         {
-            return View(_logProvider.GetAllLoggers());
+            return View(_logProvider.Log("Message"));
         }
     }
 }

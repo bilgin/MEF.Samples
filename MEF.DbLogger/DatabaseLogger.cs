@@ -9,9 +9,9 @@ namespace MEF.DbLogger
     [Export(typeof(ILogger))]
     public class DatabaseLogger : ILogger
     {
-        public string Log()
+        public string Log(string message)
         {
-            string newMessage ="Database Log";
+            string newMessage = message+" Database Logger";
             Console.WriteLine(newMessage);
             return newMessage;
         }

@@ -9,9 +9,9 @@ namespace MEF.FileLogger
     [Export(typeof(ILogger))]
     public class JsonLogger : ILogger
     {
-        public string Log()
+        public string Log(string message)
         {
-            string newMessage ="File Log";
+            string newMessage = message + " File Logger";
             Console.WriteLine(newMessage);
             return newMessage;
         }

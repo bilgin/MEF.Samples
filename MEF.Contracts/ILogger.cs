@@ -6,6 +6,6 @@ namespace MEF.Contracts
 {
    public interface ILogger
     {
-        string Log();
+        string Log(string message);
     }
 }

@@ -6,6 +6,6 @@ namespace MEF.Providers
 {
     public interface ILogProvider
     {
-        IEnumerable<(string Id, string Value)> GetAllLoggers();
+        IEnumerable<(string Id, string Value)> Log(string message);
     }
 }
