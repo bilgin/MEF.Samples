@@ -2,9 +2,7 @@ D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.Providers\bin\Debug\netsta
 D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.Providers\bin\Debug\netstandard2.0\MEF.Providers.dll
 D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.Providers\bin\Debug\netstandard2.0\MEF.Providers.pdb
 D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.Providers\bin\Debug\netstandard2.0\MEF.Contracts.dll
-D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.Providers\bin\Debug\netstandard2.0\System.Runtime.Loader.dll
 D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.Providers\bin\Debug\netstandard2.0\MEF.Contracts.pdb
-D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.Providers\bin\Debug\netstandard2.0\System.Runtime.Loader.xml
 D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.Providers\obj\Debug\netstandard2.0\MEF.Providers.csprojAssemblyReference.cache
 D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.Providers\obj\Debug\netstandard2.0\MEF.Providers.csproj.CoreCompileInputs.cache
 D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.Providers\obj\Debug\netstandard2.0\MEF.Providers.AssemblyInfoInputs.cache
@@ -12,3 +10,5 @@ D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.Providers\obj\Debug\netsta
 D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.Providers\obj\Debug\netstandard2.0\MEF.Providers.csproj.CopyComplete
 D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.Providers\obj\Debug\netstandard2.0\MEF.Providers.dll
 D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.Providers\obj\Debug\netstandard2.0\MEF.Providers.pdb
+D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.Providers\bin\Debug\netstandard2.0\MEF.Core.dll
+D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.Providers\bin\Debug\netstandard2.0\MEF.Core.pdb

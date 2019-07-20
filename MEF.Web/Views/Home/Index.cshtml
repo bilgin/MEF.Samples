@@ -1,15 +1,23 @@
-﻿@model IEnumerable<(string Id, string Value)>
+﻿@model MEF.Web.Controllers.HomeController.ViewModel
 @{
     ViewData["Title"] = "Index";
 }
 
 <h1>Index</h1>
 
-@foreach (var item in Model)
+@foreach (var item in Model.LogControl)
 {
     <div>
         <b>Dll : </b> @item.Id <br />
 
         <b> Text : </b> @item.Value <br />
+    </div><br />
+}
+<hr />
+
+@foreach (var item in Model.LogTest)
+{
+    <div>
+        <b>Test : @item</b> <br />
     </div><br />
 }

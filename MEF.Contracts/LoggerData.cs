@@ -7,7 +7,7 @@ namespace MEF.Contracts
 {
    public class LoggerData
     {
-        [DefaultValue("Unknown")]
-        public string MetaValue { get; set; }
+        [DefaultValue("Passive")]
+        public string Status { get; set; }
     }
 }

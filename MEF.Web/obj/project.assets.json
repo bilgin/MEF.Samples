@@ -4023,6 +4023,20 @@
           }
         }
       },
+      "System.Runtime.Loader/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "System.IO": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Runtime": "4.3.0"
+        },
+        "compile": {
+          "ref/netstandard1.5/System.Runtime.Loader.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.5/System.Runtime.Loader.dll": {}
+        }
+      },
       "System.Runtime.Numerics/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -4683,11 +4697,26 @@
           "bin/placeholder/MEF.Contracts.dll": {}
         }
       },
+      "MEF.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "System.Composition": "1.2.0",
+          "System.Runtime.Loader": "4.3.0"
+        },
+        "compile": {
+          "bin/placeholder/MEF.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MEF.Core.dll": {}
+        }
+      },
       "MEF.Providers/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "MEF.Contracts": "1.0.0",
+          "MEF.Core": "1.0.0",
           "System.Composition": "1.2.0"
         },
         "compile": {
@@ -11282,6 +11311,38 @@
         "system.runtime.interopservices.runtimeinformation.nuspec"
       ]
     },
+    "System.Runtime.Loader/4.3.0": {
+      "sha512": "DHMaRn8D8YCK2GG2pw+UzNxn/OHVfaWx7OTLBD/hPegHZZgcZh3H6seWegrC4BYwsfuGrywIuT+MQs+rPqRLTQ==",
+      "type": "package",
+      "path": "system.runtime.loader/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net462/_._",
+        "lib/netstandard1.5/System.Runtime.Loader.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/netstandard1.5/System.Runtime.Loader.dll",
+        "ref/netstandard1.5/System.Runtime.Loader.xml",
+        "ref/netstandard1.5/de/System.Runtime.Loader.xml",
+        "ref/netstandard1.5/es/System.Runtime.Loader.xml",
+        "ref/netstandard1.5/fr/System.Runtime.Loader.xml",
+        "ref/netstandard1.5/it/System.Runtime.Loader.xml",
+        "ref/netstandard1.5/ja/System.Runtime.Loader.xml",
+        "ref/netstandard1.5/ko/System.Runtime.Loader.xml",
+        "ref/netstandard1.5/ru/System.Runtime.Loader.xml",
+        "ref/netstandard1.5/zh-hans/System.Runtime.Loader.xml",
+        "ref/netstandard1.5/zh-hant/System.Runtime.Loader.xml",
+        "system.runtime.loader.4.3.0.nupkg.sha512",
+        "system.runtime.loader.nuspec"
+      ]
+    },
     "System.Runtime.Numerics/4.3.0": {
       "sha512": "yMH+MfdzHjy17l2KESnPiF2dwq7T+xLnSJar7slyimAkUh/gTrS9/UQOtv7xarskJ2/XDSNvfLGOBQPjL7PaHQ==",
       "type": "package",
@@ -12932,6 +12993,11 @@
       "path": "../MEF.Contracts/MEF.Contracts.csproj",
       "msbuildProject": "../MEF.Contracts/MEF.Contracts.csproj"
     },
+    "MEF.Core/1.0.0": {
+      "type": "project",
+      "path": "../MEF.Core/MEF.Core.csproj",
+      "msbuildProject": "../MEF.Core/MEF.Core.csproj"
+    },
     "MEF.Providers/1.0.0": {
       "type": "project",
       "path": "../MEF.Providers/MEF.Providers.csproj",
@@ -12940,6 +13006,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
+      "MEF.Core >= 1.0.0",
       "MEF.Providers >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
@@ -12977,6 +13044,9 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
+            "D:\\berkay.bilgin\\projects\\dotnet-core\\MEF.Samples\\MEF.Core\\MEF.Core.csproj": {
+              "projectPath": "D:\\berkay.bilgin\\projects\\dotnet-core\\MEF.Samples\\MEF.Core\\MEF.Core.csproj"
+            },
             "D:\\berkay.bilgin\\projects\\dotnet-core\\MEF.Samples\\MEF.Providers\\MEF.Providers.csproj": {
               "projectPath": "D:\\berkay.bilgin\\projects\\dotnet-core\\MEF.Samples\\MEF.Providers\\MEF.Providers.csproj"
             }

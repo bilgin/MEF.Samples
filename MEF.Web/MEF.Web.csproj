@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\MEF.Core\MEF.Core.csproj" />
     <ProjectReference Include="..\MEF.Providers\MEF.Providers.csproj" />
   </ItemGroup>
 

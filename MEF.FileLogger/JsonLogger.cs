@@ -11,9 +11,7 @@ namespace MEF.FileLogger
     {
         public string Log(string message)
         {
-            string newMessage = message + " File Logger";
-            Console.WriteLine(newMessage);
-            return newMessage;
+            return $"{message} File Logger";
         }
     }
 }

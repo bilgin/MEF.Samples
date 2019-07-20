@@ -1,0 +1,9 @@
+D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.Core\bin\Debug\netstandard2.0\MEF.Core.deps.json
+D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.Core\bin\Debug\netstandard2.0\MEF.Core.dll
+D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.Core\obj\Debug\netstandard2.0\MEF.Core.csprojAssemblyReference.cache
+D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.Core\obj\Debug\netstandard2.0\MEF.Core.csproj.CoreCompileInputs.cache
+D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.Core\obj\Debug\netstandard2.0\MEF.Core.AssemblyInfoInputs.cache
+D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.Core\obj\Debug\netstandard2.0\MEF.Core.AssemblyInfo.cs
+D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.Core\bin\Debug\netstandard2.0\MEF.Core.pdb
+D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.Core\obj\Debug\netstandard2.0\MEF.Core.dll
+D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.Core\obj\Debug\netstandard2.0\MEF.Core.pdb

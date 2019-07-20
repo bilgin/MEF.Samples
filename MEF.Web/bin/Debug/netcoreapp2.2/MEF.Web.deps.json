@@ -24,6 +24,7 @@
     ".NETCoreApp,Version=v2.2": {
       "MEF.Web/1.0.0": {
         "dependencies": {
+          "MEF.Core": "1.0.0",
           "MEF.Providers": "1.0.0",
           "Microsoft.AspNetCore.App": "2.2.0",
           "Microsoft.AspNetCore.Razor.Design": "2.2.0",
@@ -295,6 +296,13 @@
           "System.Threading.Tasks": "4.3.0"
         }
       },
+      "System.Runtime.Loader/4.3.0": {
+        "dependencies": {
+          "System.IO": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
       "MEF.Contracts/1.0.0": {
         "runtime": {
           "MEF.Contracts.dll": {}
@@ -303,9 +311,22 @@
           "MEF.Contracts.dll": {}
         }
       },
+      "MEF.Core/1.0.0": {
+        "dependencies": {
+          "System.Composition": "1.2.0",
+          "System.Runtime.Loader": "4.3.0"
+        },
+        "runtime": {
+          "MEF.Core.dll": {}
+        },
+        "compile": {
+          "MEF.Core.dll": {}
+        }
+      },
       "MEF.Providers/1.0.0": {
         "dependencies": {
           "MEF.Contracts": "1.0.0",
+          "MEF.Core": "1.0.0",
           "System.Composition": "1.2.0"
         },
         "runtime": {
@@ -3643,7 +3664,19 @@
       "path": "system.linq.parallel/4.3.0",
       "hashPath": "system.linq.parallel.4.3.0.nupkg.sha512"
     },
+    "System.Runtime.Loader/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DHMaRn8D8YCK2GG2pw+UzNxn/OHVfaWx7OTLBD/hPegHZZgcZh3H6seWegrC4BYwsfuGrywIuT+MQs+rPqRLTQ==",
+      "path": "system.runtime.loader/4.3.0",
+      "hashPath": "system.runtime.loader.4.3.0.nupkg.sha512"
+    },
     "MEF.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MEF.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

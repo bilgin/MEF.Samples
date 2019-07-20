@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29102.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MEF.Web", "MEF.Web\MEF.Web.csproj", "{DF106CE2-491C-410F-A5D8-E89D490E5B39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MEF.Web", "MEF.Web\MEF.Web.csproj", "{DF106CE2-491C-410F-A5D8-E89D490E5B39}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MEF.Providers", "MEF.Providers\MEF.Providers.csproj", "{91BC836F-E565-4705-A518-7E0256BE02C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MEF.Providers", "MEF.Providers\MEF.Providers.csproj", "{91BC836F-E565-4705-A518-7E0256BE02C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MEF.Contracts", "MEF.Contracts\MEF.Contracts.csproj", "{B155E20E-1DF6-4106-9105-F1186C69FE2A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MEF.Contracts", "MEF.Contracts\MEF.Contracts.csproj", "{B155E20E-1DF6-4106-9105-F1186C69FE2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MEF.FileLogger", "MEF.FileLogger\MEF.FileLogger.csproj", "{CE56E238-DABF-46CD-B4BA-FEE4FEDF7E78}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MEF.FileLogger", "MEF.FileLogger\MEF.FileLogger.csproj", "{CE56E238-DABF-46CD-B4BA-FEE4FEDF7E78}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MEF.DbLogger", "MEF.DbLogger\MEF.DbLogger.csproj", "{109369AD-4E76-45EB-AA3A-9771764C9658}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MEF.DbLogger", "MEF.DbLogger\MEF.DbLogger.csproj", "{109369AD-4E76-45EB-AA3A-9771764C9658}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MEF.Core", "MEF.Core\MEF.Core.csproj", "{E998A683-E957-4025-ABEC-8C564808E0BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{109369AD-4E76-45EB-AA3A-9771764C9658}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{109369AD-4E76-45EB-AA3A-9771764C9658}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{109369AD-4E76-45EB-AA3A-9771764C9658}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E998A683-E957-4025-ABEC-8C564808E0BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E998A683-E957-4025-ABEC-8C564808E0BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E998A683-E957-4025-ABEC-8C564808E0BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E998A683-E957-4025-ABEC-8C564808E0BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
