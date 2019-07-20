@@ -28,5 +28,5 @@ D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.Web\obj\Debug\netcoreapp2.
 D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.Web\obj\Debug\netcoreapp2.2\MEF.Web.csproj.CopyComplete
 D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.Web\obj\Debug\netcoreapp2.2\MEF.Web.dll
 D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.Web\obj\Debug\netcoreapp2.2\MEF.Web.pdb
-D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.Web\bin\Debug\netcoreapp2.2\Extensions\netstandard2.0\MEF.DbLogger.deps.json
 D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.Web\bin\Debug\netcoreapp2.2\Extensions\netstandard2.0\MEF.FileLogger.deps.json
+D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.Web\bin\Debug\netcoreapp2.2\Extensions\netstandard2.0\MEF.DbLogger.deps.json

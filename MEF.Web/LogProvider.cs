@@ -1,5 +1,7 @@
 ﻿using MEF.Contracts;
 using MEF.Providers;
+using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Composition;
 using System.Composition.Hosting;
@@ -18,14 +20,16 @@ namespace MEF.Web
         }
 
         [ImportMany]
-        public IEnumerable<ILogger> Services { get; private set; }
+        public IEnumerable<Lazy<ILogger, LoggerData>> Services { get; private set; }
 
         private void ComposeLoggers()
         {
-            var assemblies = new List<Assembly>() { typeof(Program).GetTypeInfo().Assembly };
-            var pluginAssemblies = Directory.GetFiles(@"..\Extensions\netstandard2.0", "*.dll", SearchOption.TopDirectoryOnly)
+            var assemblies = new List<Assembly>() { System.Reflection.Assembly.GetExecutingAssembly() };
+
+            var pluginAssemblies = Directory.GetFiles(@"D:\berkay.bilgin\projects\dotnet-core\MEF.Samples\MEF.Web\Extensions\netstandard2.0", "*.dll",
+                SearchOption.TopDirectoryOnly)
                 .Select(AssemblyLoadContext.Default.LoadFromAssemblyPath)
-                .Where(s => s.GetTypes().Where(p => typeof(ILogger).IsAssignableFrom(p)).Any());
+                .Where(s => s.GetTypes().Where(p => typeof(ILogger).IsAssignableFrom(p) && p.HasMetadataToken()).Any());
 
             assemblies.AddRange(pluginAssemblies);
 
@@ -34,18 +38,28 @@ namespace MEF.Web
 
             using (var container = configuration.CreateContainer())
             {
-                Services = container.GetExports<ILogger>();
+                Services = container.GetExports<Lazy<ILogger, LoggerData>>();
             }
         }
 
         public IEnumerable<(string Id, string Value)> Log(string message)
         {
-            return Services.Select(f => 
-            new { Id = f.GetType().ToString(), Value = f.Log(message) }
-            )
-             .AsEnumerable()
-             .Select(c => (c.Id, c.Value))
-             .ToList();
+            List<(string Id, string Value)> loggers = new List<(string Id, string Value)>();
+
+            foreach (Lazy<ILogger,LoggerData> item in Services)
+            {
+                if (item.Metadata.MetaValue.Equals("Unknown"))
+                {
+                    loggers.Add((item.Value.GetType().ToString(), item.Value.Log("Geçersiz log")));
+                }
+                else if (item.Metadata.MetaValue.Equals("Success"))
+                {
+                    loggers.Add((item.Value.GetType().ToString(), item.Value.Log("Başarılı log kaydı yapıldı    : ")));
+                }
+            }
+
+            return loggers;
+
         }
     }
 }
